@@ -1,14 +1,15 @@
 import { SparklesIcon } from "@heroicons/react/outline";
 import TweetInput from "./TweetInput";
 import Post from "./Post";
+import me from "../asstes/me.jpg";
 
 const Feed = () => {
   const posts = [
     {
       id: "1",
-      name: "Bilgihan Kose",
-      username: "bilgihankose",
-      userImage: "https://avatars.githubusercontent.com/u/39279529",
+      name: "Mohamed Taj",
+      username: "mohamedtaj",
+      userImage: me,
       postImage:
         "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
       text: "I'm baby literally heirloom vape, ennui tote bag keffiyeh hella shaman hoodie tousled hammock tbh bushwick cloud bread actually. ",
@@ -16,9 +17,10 @@ const Feed = () => {
     },
     {
       id: "2",
-      name: "Bilgihan Kose",
-      username: "bilgihankose",
-      userImage: "https://avatars.githubusercontent.com/u/39279529",
+
+      name: "Mohamed Taj",
+      username: "mohamedtaj",
+      userImage: me,
       postImage:
         "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
       text: "Blog heirloom iPhone activated charcoal man braid butcher, YOLO palo santo. ",
@@ -26,9 +28,10 @@ const Feed = () => {
     },
     {
       id: "3",
-      name: "Bilgihan Kose",
-      username: "bilgihankose",
-      userImage: "https://avatars.githubusercontent.com/u/39279529",
+
+      name: "Mohamed Taj",
+      username: "mohamedtaj",
+      userImage: me,
       postImage:
         "https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
       text: "Beard ethical health goth, migas kinfolk tousled austin freegan narwhal selvage 8-bit vinyl drinking vinegar. Lo-fi flexitarian bicycle rights prism jianbing pug art party literally bitters.",

@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import { EmojiHappyIcon } from "@heroicons/react/outline";
 import { useState } from "react";
+import me from "../asstes/me.jpg";
 
 const TweetInput = () => {
   const [input, setInput] = useState("");
@@ -8,7 +9,7 @@ const TweetInput = () => {
   return (
     <div className="flex border-b border-gray-200 p-3 space-x-3">
       <img
-        src="https://avatars.githubusercontent.com/u/39279529"
+        src={me}
         alt="Profile picture"
         className="h-11 w-11 rounded-full cursor-pointer hover:brightness-95"
       />
@@ -30,7 +31,7 @@ const TweetInput = () => {
             disabled={!input.trim()}
             className="bg-blue-400 text-white px-4 py-2 rounded-full font-bold shadow-md hover:brightness-95 disabled:opacity-50"
           >
-            Tweet
+            Post
           </button>
         </div>
       </div>
