@@ -9,7 +9,7 @@ const Feed = () => {
       id: "1",
       name: "Mohamed Taj",
       username: "mohamedtaj",
-      userImage: me,
+      userImage:  me ,
       postImage:
         "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
       text: "I'm baby literally heirloom vape, ennui tote bag keffiyeh hella shaman hoodie tousled hammock tbh bushwick cloud bread actually. ",
@@ -20,7 +20,7 @@ const Feed = () => {
 
       name: "Mohamed Taj",
       username: "mohamedtaj",
-      userImage: me,
+      userImage: me ,
       postImage:
         "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
       text: "Blog heirloom iPhone activated charcoal man braid butcher, YOLO palo santo. ",
