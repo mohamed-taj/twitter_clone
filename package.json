@@ -1,7 +1,7 @@
 {
   "name": "twitter-tailwind-clone",
   "version": "0.1.0",
-  "homepage": "https://bilgihankose.github.io/twitter-tailwind-clone",
+  "homepage": "https://twitter-clone-seven-brown-72.vercel.app/",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.6",
